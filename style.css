@@ -1,0 +1,44 @@
+body{
+    --main-bg-color: rgb(238, 151, 151);
+    background-image: url("backback.jpg");
+}
+.all {
+    background-color: white;
+    border-radius: 15px;
+    margin: 150px auto;
+    width: 500px;
+  
+    text-align: center;
+    box-shadow: black 0 0 20px;
+    border: 2px solid #aaa;
+}
+
+.parta {
+    margin: 20px;
+    padding: 20px;
+    background-color: var(--main-bg-color);
+}
+
+.partb {
+    margin: 20px;
+    padding: 20px;
+    background-color: var(--main-bg-color);
+}
+
+.partc {
+    margin: 20px;
+    padding: 20px;
+    background-color: var(--main-bg-color);
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    margin-top: 3cm;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
